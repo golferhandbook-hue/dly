@@ -460,7 +460,7 @@ description: "실전 단타·스캘핑 심리전, 뼈 때리는 팩폭 명언, �
 <footer class="archive-footer">
   <div class="visitor-counter-bar">
     <span style="font-size: 14px; font-weight: 700; color: #ffffff;">👥 누적 방문자수</span>
-    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgolferhandbook-hue.github.io%2Fdly&count_bg=%232563EB&title_bg=%230F172A&title=VISITORS&edge_flat=false" 
+    <img src="https://api.visitorbadge.io/api/visitors?path=golferhandbook-hue.dly&label=VISITORS&labelColor=%230f172a&countColor=%232563eb&style=flat" 
          alt="나오의 투자 썰 누적 방문자 카운터" 
          style="vertical-align: middle; height: 22px;" />
   </div>
