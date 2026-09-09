@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "나오의 투자 썰 - 실전 투자 심리 & 팩폭 명언 아카이브"
-description: "실전 단타·스캘핑 심리전, 뼈 때리는 팩폭 명언, 매일의 주식 인텔리전스를 기록하는 나오의 실전 투자 썰 아카이브"
+description: "이 썰은 스윙매매 원칙주의자와 단타고수의 하루에 있었던 종목과 시장 전망에 대한 토론을 정리한 내용이다."
 ---
 
 <!-- ── 상단 커스텀 스타일 (디자인 시스템 & 페이징 UI) ── -->
@@ -98,6 +98,80 @@ description: "실전 단타·스캘핑 심리전, 뼈 때리는 팩폭 명언, �
   .btn-header-cta:hover {
     transform: translateY(-1px);
     box-shadow: 0 4px 16px rgba(37, 99, 235, 0.6);
+  }
+
+  /* 상단 핵심 정체성 히어로 배너 */
+  .hero-intro-banner {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #1e3a8a 100%);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    padding: 26px 24px;
+    margin-bottom: 26px;
+    box-shadow: 0 10px 30px -5px rgba(15, 23, 42, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.05);
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-intro-banner::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 320px;
+    height: 320px;
+    background: radial-gradient(circle, rgba(59, 130, 246, 0.18) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero-intro-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: rgba(37, 99, 235, 0.25);
+    border: 1px solid rgba(96, 165, 250, 0.4);
+    color: #93c5fd;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+    letter-spacing: 0.05em;
+    margin-bottom: 12px;
+  }
+  .hero-intro-dot {
+    width: 7px;
+    height: 7px;
+    background: #38bdf8;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #38bdf8;
+    animation: pulse-dot 2s infinite;
+  }
+  @keyframes pulse-dot {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.85); }
+  }
+  .hero-intro-heading {
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.55;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.02em;
+    word-break: keep-all;
+  }
+  .highlight-swing {
+    color: #60a5fa;
+    font-weight: 800;
+    text-shadow: 0 0 12px rgba(96, 165, 250, 0.3);
+  }
+  .highlight-scalp {
+    color: #f87171;
+    font-weight: 800;
+    text-shadow: 0 0 12px rgba(248, 113, 113, 0.3);
+  }
+  .hero-intro-sub {
+    font-size: 13.5px;
+    color: #cbd5e1;
+    margin: 0;
+    line-height: 1.6;
+    word-break: keep-all;
   }
 
   /* 검색 및 필터 구획 */
@@ -380,6 +454,20 @@ description: "실전 단타·스캘핑 심리전, 뼈 때리는 팩폭 명언, �
     🐙 GitHub Repo →
   </a>
 </nav>
+
+<!-- ── 1.5. 핵심 정체성 히어로 배너 (스윙매매 원칙주의자 vs 단타고수) ── -->
+<div class="hero-intro-banner">
+  <div class="hero-intro-badge">
+    <span class="hero-intro-dot"></span>
+    <span>REAL TRADING INTELLIGENCE ARCHIVE</span>
+  </div>
+  <h1 class="hero-intro-heading">
+    "이 썰은 <span class="highlight-swing">스윙매매 원칙주의자</span>와 <span class="highlight-scalp">단타고수</span>의 하루에 있었던 종목과 시장 전망에 대한 토론을 정리한 내용이다."
+  </h1>
+  <p class="hero-intro-sub">
+    원칙과 추세를 지키는 스윙러 vs 동물적 감각으로 시장을 긁는 단타 고수 — 치열한 장중 실전 토론과 뼈 때리는 팩폭을 매일 17:00 기록합니다.
+  </p>
+</div>
 
 <!-- ── 2. 검색 및 퀵 태그 필터 바 ── -->
 <div class="search-section">
