@@ -408,12 +408,13 @@ description: "실전 단타·스캘핑 심리전, 뼈 때리는 팩폭 명언, �
 <!-- ── 3. 실전 투자 썰 카드 그리드 ── -->
 <div class="posts-grid" id="postsGrid">
 
-  {% for post in site.posts %}
+{% for post in site.posts %}
   <article class="post-card" 
-           data-title="{{ post.title | downcase }}" 
-           data-desc="{{ post.content | strip_html | downcase | truncate: 250 }}" 
-           data-categories="{{ post.categories | join: ' ' | downcase }}" 
-           data-tags="{{ post.tags | join: ' ' | downcase }}">
+    data-title="{{ post.title | downcase | escape }}"
+    data-desc="{{ post.description | default: post.excerpt | strip_html | strip_newlines | downcase | escape }}"
+    data-categories="{{ post.categories | join: ' ' | downcase | escape }}"
+    data-tags="{{ post.tags | join: ' ' | downcase | escape }}"
+  >
     <div>
       <div class="post-card-meta">
         <span class="post-category-badge">{{ post.categories | first | default: "실전투자썰" }}</span>
@@ -425,7 +426,7 @@ description: "실전 단타·스캘핑 심리전, 뼈 때리는 팩폭 명언, �
       </h3>
 
       <div class="post-card-desc">
-        {{ post.content | strip_html | truncate: 140 }}
+        {{ post.description | default: post.excerpt | strip_html | strip_newlines | truncate: 140 }}
       </div>
 
       {% if post.tags %}
