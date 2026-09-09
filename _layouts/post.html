@@ -1,0 +1,78 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" style="max-width: 820px; margin: 0 auto; padding: 20px 10px;">
+  
+  <div style="margin-bottom: 24px;">
+    <a href="{{ site.baseurl }}/" style="display: inline-flex; align-items: center; gap: 6px; color: #2563eb; text-decoration: none; font-size: 14px; font-weight: 700; background: #eff6ff; padding: 6px 14px; border-radius: 20px; border: 1px solid #bfdbfe; transition: all 0.2s;">
+      ← 목록으로 돌아가기
+    </a>
+  </div>
+
+  <header class="post-header" style="margin-bottom: 30px; border-bottom: 2px solid #e2e8f0; padding-bottom: 20px;">
+    <div style="display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; align-items: center;">
+      <span style="background: #e0f2fe; color: #0369a1; font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 6px;">
+        {{ page.categories | first | default: "투자썰" }}
+      </span>
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" style="color: #64748b; font-size: 13.5px; font-weight: 500;">
+        📅 {{ page.date | date: "%Y년 %m월 %d일" }}
+      </time>
+      <span style="color: #94a3b8;">•</span>
+      <span style="color: #475569; font-size: 13.5px; font-weight: 600;">
+        ✍️ {{ page.author | default: "나오 (Nao)" }}
+      </span>
+    </div>
+
+    <h1 class="post-title p-name" itemprop="name headline" style="font-size: 26px; font-weight: 800; color: #0f172a; line-height: 1.4; margin: 0 0 10px 0; letter-spacing: -0.02em;">
+      {{ page.title | escape }}
+    </h1>
+
+    {% if page.tags %}
+    <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px;">
+      {% for tag in page.tags %}
+      <span style="font-size: 12px; color: #64748b; background: #f1f5f9; padding: 2px 8px; border-radius: 4px; border: 1px solid #e2e8f0;">#{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </header>
+
+  <!-- 📢 상단 안내 배너 -->
+  <div style="background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%); border: 1px solid #bfdbfe; border-radius: 12px; padding: 16px 20px; margin-bottom: 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; box-shadow: 0 2px 8px rgba(37, 99, 235, 0.05);">
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <span style="font-size: 26px;">⚡</span>
+      <div>
+        <strong style="color: #1e40af; font-size: 15px; display: block; margin-bottom: 2px;">나오의 실전 투자 썰 아카이브</strong>
+        <p style="margin: 0; font-size: 13px; color: #3b82f6;">개미 투자자들의 치열한 실전 매매와 뇌동매매 방지, 뼈 때리는 팩폭 명언을 매일 기록합니다.</p>
+      </div>
+    </div>
+    <div style="font-size: 12px; font-weight: 700; color: #1e40af; background: #ffffff; padding: 6px 12px; border-radius: 8px; border: 1px solid #bfdbfe;">
+      DAILY REALITY
+    </div>
+  </div>
+
+  <!-- 본문 컨텐츠 -->
+  <div class="post-content e-content" itemprop="articleBody" style="font-size: 16px; line-height: 1.8; color: #334155;">
+    {{ content }}
+  </div>
+
+  <!-- 🚀 하단 전환 배너 -->
+  <div style="margin-top: 48px; padding: 28px 24px; background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); border-radius: 16px; color: #ffffff; box-shadow: 0 12px 28px rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.1);">
+    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+      <span style="font-size: 28px;">📊</span>
+      <h3 style="margin: 0; color: #ffffff; font-size: 19px; font-weight: 800;">나오의 투자 원칙: "손실을 통제하는 자만이 살아남는다"</h3>
+    </div>
+    <p style="margin: 0 0 18px; color: #cbd5e1; font-size: 14.5px; line-height: 1.65;">
+      익절은 1%에 던지면서 물리면 기도하는 '비자발적 장기 기부 천사'가 되지 마십시오. 
+      계획된 분할 매수와 기계적인 손절선 준수만이 당신의 소중한 시드머니를 지켜냅니다.
+    </p>
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; border-top: 1px solid rgba(255,255,255,0.15); padding-top: 16px;">
+      <span style="font-size: 13px; color: #94a3b8;">
+        © 2026 나오의 투자 썰 (Nao's Investment Stories). All rights reserved.
+      </span>
+      <a href="{{ site.baseurl }}/" style="background: #2563eb; color: #ffffff; padding: 8px 18px; border-radius: 8px; font-weight: 700; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+        다른 투자 썰 읽기 →
+      </a>
+    </div>
+  </div>
+
+</article>
