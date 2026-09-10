@@ -448,6 +448,7 @@ description: "이 썰은 스윙매매 원칙주의자와 단타고수의 하루�
     <a href="#" class="archive-nav-link" onclick="setCategoryFilter('팩폭명언', this); return false;">⚡ 팩폭 명언</a>
     <a href="#" class="archive-nav-link" onclick="setCategoryFilter('투자심리', this); return false;">🧠 매매 심리</a>
     <a href="#" class="archive-nav-link" onclick="setCategoryFilter('종목분석', this); return false;">🔍 종목 분석</a>
+    <a href="#" class="archive-nav-link" onclick="setCategoryFilter('퀀트인텔리전스', this); return false;">🤖 퀀트 인텔리전스</a>
   </div>
 
   <a href="https://github.com/golferhandbook-hue/dly" target="_blank" rel="noopener" class="btn-header-cta">
@@ -465,7 +466,7 @@ description: "이 썰은 스윙매매 원칙주의자와 단타고수의 하루�
     "이 썰은 <span class="highlight-swing">스윙매매 원칙주의자</span>와 <span class="highlight-scalp">단타고수</span>의 하루에 있었던 종목과 시장 전망에 대한 토론을 정리한 내용이다."
   </h1>
   <p class="hero-intro-sub">
-    원칙과 추세를 지키는 스윙러 vs 동물적 감각으로 시장을 긁는 단타 고수 — 치열한 장중 실전 토론과 뼈 때리는 팩폭을 매일 17:00 기록합니다.
+    원칙과 추세를 지키는 스윙러 vs 동물적 감각으로 시장을 긁는 단타 고수 — 치열한 장중 실전 토론과 뼈 때리는 팩폭을 매일 기록합니다.
   </p>
 </div>
 
@@ -473,17 +474,19 @@ description: "이 썰은 스윙매매 원칙주의자와 단타고수의 하루�
 <div class="search-section">
   <div class="search-input-wrap">
     <span class="search-icon">🔍</span>
-    <input type="text" id="liveSearchInput" placeholder="종목명, 키워드, 명언 검색... (예: 레메디, 스카이랩스, 손절, 복리, 스캘퍼)" oninput="handleLiveSearch()" />
+    <input type="text" id="liveSearchInput" placeholder="종목명, 키워드, 명언 검색... (예: 레메디, 스카이랩스, 손절, 복리, 퀀트, 매크로)" oninput="handleLiveSearch()" />
   </div>
 
   <div class="filter-chips">
     <span style="font-size: 12px; font-weight: 700; color: #475569; margin-right: 4px;">🏷️ 빠른 필터:</span>
     <span class="filter-chip active" onclick="setTagFilter('all', this)">전체</span>
+    <span class="filter-chip" onclick="setTagFilter('퀀트', this)">#퀀트인텔리전스</span>
     <span class="filter-chip" onclick="setTagFilter('팩폭명언', this)">#팩폭명언</span>
     <span class="filter-chip" onclick="setTagFilter('투자심리', this)">#투자심리</span>
+    <span class="filter-chip" onclick="setTagFilter('매크로', this)">#매크로전망</span>
+    <span class="filter-chip" onclick="setTagFilter('바이오비쥬', this)">#바이오비쥬</span>
     <span class="filter-chip" onclick="setTagFilter('단타', this)">#단타스캘핑</span>
     <span class="filter-chip" onclick="setTagFilter('레메디', this)">#레메디</span>
-    <span class="filter-chip" onclick="setTagFilter('스카이랩스', this)">#스카이랩스</span>
     <span class="filter-chip" onclick="setTagFilter('손절', this)">#손절원칙</span>
   </div>
 
