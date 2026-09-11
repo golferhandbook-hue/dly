@@ -1,9 +1,40 @@
 title: "나오의 투자 썰"
-description: "이 썰은 스윙매매 원칙주의자와 단타고수의 하루에 있었던 종목과 시장 전망에 대한 토론을 정리한 내용이다."
+subtitle: "실전 투자 심리 & 퀀트 인텔리전스 아카이브"
+description: "스윙매매 원칙주의자와 단타고수의 하루에 있었던 종목과 시장 전망에 대한 치열한 토론, 뼈 때리는 팩폭 명언, 매크로 퀀트 시장 분석 아카이브."
 url: "https://ssul.studioexitt.net"
 baseurl: ""
+lang: "ko"
+locale: "ko_KR"
 
-# Jekyll SEO & Sitemap 플러그인 (GitHub Pages 기본 지원)
+# SEO 키워드 및 메타데이터
+keywords: "주식, 스윙매매, 단타, 퀀트, 매크로분석, 반도체, 코스피, 나스닥, 투자심리, 종목토론, 주식공부, 재테크, 비트코인, 차트분석, 바이오비쥬, SK하이닉스"
+image: "/assets/images/og-image.png"
+logo: "/assets/images/favicon.png"
+
+# 소셜 & 작성자 프로필 (Google Schema.org / OpenGraph)
+author:
+  name: "나오 (Nao)"
+  email: "contact@studioexitt.net"
+  twitter: "@studioexitt"
+
+social:
+  name: "나오의 투자 썰"
+  links:
+    - "https://ssul.studioexitt.net"
+    - "https://golferhandbook-hue.github.io/dly"
+
+# 트위터 카드 설정
+twitter:
+  card: "summary_large_image"
+  site: "@studioexitt"
+  creator: "@studioexitt"
+
+# 검색엔진 웹마스터 도구 인증 (Google, Naver, Bing)
+google_site_verification: ""
+naver_site_verification: ""
+bing_site_verification: ""
+
+# Jekyll 플러그인 (GitHub Pages 공식 화이트리스트 지원)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -18,10 +49,9 @@ kramdown:
 # 영구 링크 구조 (SEO 최적화 YYYY/MM/DD/slug)
 permalink: /:year/:month/:day/:title/
 
-# 소셜 메타데이터 (Google / OpenGraph / Twitter Cards)
-author: "나오 (Nao)"
-locale: "ko_KR"
-social:
-  name: "나오의 투자 썰"
-  links:
-    - "https://golferhandbook-hue.github.io/dly"
+# 빌드 제외 목록 (검색엔진 불필요 파일 크롤링 방지)
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+

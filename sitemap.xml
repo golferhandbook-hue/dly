@@ -1,0 +1,57 @@
+﻿---
+layout: null
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- 1. 메인 홈페이지 (최상위 우선순위 1.0, 데일리 갱신) -->
+  <url>
+    <loc>{{ site.url }}/</loc>
+    {% assign latest_post = site.posts.first %}
+    <lastmod>{{ latest_post.date | date_to_xmlschema | default: site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>{{ site.url }}/assets/images/og-image.png</image:loc>
+      <image:title>{{ site.title | xml_escape }}</image:title>
+    </image:image>
+  </url>
+
+  <!-- 2. 모든 투자 썰 및 퀀트 인텔리전스 아카이브 포스트 (우선순위 0.8) -->
+  {% for post in site.posts %}
+  <url>
+    <loc>{{ site.url }}{{ post.url }}</loc>
+    <lastmod>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    {% if post.image %}
+    <image:image>
+      <image:loc>{% if post.image contains 'http' %}{{ post.image }}{% else %}{{ site.url }}{{ post.image }}{% endif %}</image:loc>
+      <image:title>{{ post.title | xml_escape }}</image:title>
+    </image:image>
+    {% else %}
+    <image:image>
+      <image:loc>{{ site.url }}/assets/images/og-image.png</image:loc>
+      <image:title>{{ post.title | xml_escape }}</image:title>
+    </image:image>
+    {% endif %}
+  </url>
+  {% endfor %}
+
+  <!-- 3. 추가 정적 페이지 -->
+  {% for page in site.pages %}
+    {% if page.sitemap != false and page.url != '/' and page.url != '/sitemap.xml' and page.url != '/robots.txt' and page.url != '/404.html' and page.name contains '.html' or page.name contains '.md' %}
+    <url>
+      <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    {% endif %}
+  {% endfor %}
+
+</urlset>

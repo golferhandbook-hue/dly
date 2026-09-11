@@ -1,0 +1,36 @@
+﻿User-agent: *
+Allow: /
+Disallow: /assets/css/*.map
+
+# 주요 글로벌 및 국내 검색엔진 크롤러 허용
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+User-agent: Daumoa
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# SNS 미리보기 봇 허용 (카카오톡, 페이스북, 트위터/X, 스레드)
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: Kakaotalk-scrap
+Allow: /
+
+# 사이트맵 및 RSS 피드 위치
+Sitemap: https://ssul.studioexitt.net/sitemap.xml
+Sitemap: https://ssul.studioexitt.net/feed.xml
