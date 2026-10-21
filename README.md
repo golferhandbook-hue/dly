@@ -14,11 +14,13 @@
 ## 📚 최근 발행 투자 썰 목록
 
 - **[2026-10-21]** [[퀀트 인텔리전스] Ep.39 \](_posts/2026-10-21-quant-market-intelligence.md)
+- **[2026-10-21]** [[퀀트 인텔리전스] Ep.44 \](_posts/2026-10-21-quant-market-intelligence-06.md)
 - **[2026-10-21]** [[퀀트 인텔리전스] Ep.43 \](_posts/2026-10-21-quant-market-intelligence-05.md)
 - **[2026-10-21]** [[퀀트 인텔리전스] Ep.42 \](_posts/2026-10-21-quant-market-intelligence-04.md)
 - **[2026-10-21]** [[퀀트 인텔리전스] Ep.41 \](_posts/2026-10-21-quant-market-intelligence-03.md)
 - **[2026-10-21]** [[퀀트 인텔리전스] Ep.40 \](_posts/2026-10-21-quant-market-intelligence-02.md)
 - **[2026-10-21]** [[나오의 투자 썰] Ep.53 \](_posts/2026-10-21-nao-investment-ssul.md)
+- **[2026-10-21]** [[나오의 투자 썰] Ep.61 \](_posts/2026-10-21-nao-investment-ssul-09.md)
 - **[2026-10-21]** [[나오의 투자 썰] Ep.60 \](_posts/2026-10-21-nao-investment-ssul-08.md)
 - **[2026-10-21]** [[나오의 투자 썰] Ep.59 \](_posts/2026-10-21-nao-investment-ssul-07.md)
 - **[2026-10-21]** [[나오의 투자 썰] Ep.58 \](_posts/2026-10-21-nao-investment-ssul-06.md)
@@ -119,4 +121,4 @@
 
 ---
 
-*본 아카이브는 AGY STUDIO의 자율형 AI 시스템에 의해 매일 장 마감 후 자동 집필 및 배포됩니다.* 📈�� 자율형 AI 시스템에 의해 매일 장 마감 후 자동 집필 및 배포됩니다.* 📈
+*본 아카이브는 AGY STUDIO의 자율형 AI 시스템에 의해 매일 장 마감 후 자동 집필 및 배포됩니다.* 📈
