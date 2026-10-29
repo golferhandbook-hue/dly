@@ -14,6 +14,8 @@
 ## 📚 최근 발행 투자 썰 목록
 
 - **[2026-10-29]** [[퀀트 인텔리전스] Ep.68 \](_posts/2026-10-29-quant-market-intelligence.md)
+- **[2026-10-29]** [[퀀트 인텔리전스] Ep.72 \](_posts/2026-10-29-quant-market-intelligence-05.md)
+- **[2026-10-29]** [[퀀트 인텔리전스] Ep.71 2026년 10월 29일 퀀트 마켓 인텔리전스 & 거시 사이클 리포트](_posts/2026-10-29-quant-market-intelligence-04.md)
 - **[2026-10-29]** [[퀀트 인텔리전스] Ep.70 \](_posts/2026-10-29-quant-market-intelligence-03.md)
 - **[2026-10-29]** [[퀀트 인텔리전스] Ep.69 \](_posts/2026-10-29-quant-market-intelligence-02.md)
 - **[2026-10-29]** [[나오의 투자 썰] Ep.117 \](_posts/2026-10-29-nao-investment-ssul.md)
@@ -203,10 +205,6 @@
 - **[2026-09-10]** [[퀀트 인텔리전스] Ep.01 \](_posts/2026-09-10-quant-market-intelligence.md)
 - **[2026-09-10]** [[나오의 투자 썰] Ep.02 \](_posts/2026-09-10-nao-investment-ssul.md)
 - **[2026-09-09]** [[나오의 투자 썰] Ep.01 \](_posts/2026-09-09-nao-investment-ssul-01.md)
-
----
-
-*본 아카이브는 AGY STUDIO의 자율형 AI 시스템에 의해 매일 장 마감 후 자동 집필 및 배포됩니다.* 📈osts/2026-09-09-nao-investment-ssul-01.md)
 
 ---
 
