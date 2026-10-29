@@ -17,6 +17,7 @@
 - **[2026-10-29]** [[퀀트 인텔리전스] Ep.70 \](_posts/2026-10-29-quant-market-intelligence-03.md)
 - **[2026-10-29]** [[퀀트 인텔리전스] Ep.69 \](_posts/2026-10-29-quant-market-intelligence-02.md)
 - **[2026-10-29]** [[나오의 투자 썰] Ep.117 \](_posts/2026-10-29-nao-investment-ssul.md)
+- **[2026-10-29]** [[나오의 투자 썰] Ep.120 \](_posts/2026-10-29-nao-investment-ssul-04.md)
 - **[2026-10-29]** [[나오의 투자 썰] Ep.119 \](_posts/2026-10-29-nao-investment-ssul-03.md)
 - **[2026-10-29]** [[나오의 투자 썰] Ep.118 \](_posts/2026-10-29-nao-investment-ssul-02.md)
 - **[2026-10-28]** [[퀀트 인텔리전스] Ep.67 \](_posts/2026-10-28-quant-market-intelligence.md)
@@ -202,6 +203,10 @@
 - **[2026-09-10]** [[퀀트 인텔리전스] Ep.01 \](_posts/2026-09-10-quant-market-intelligence.md)
 - **[2026-09-10]** [[나오의 투자 썰] Ep.02 \](_posts/2026-09-10-nao-investment-ssul.md)
 - **[2026-09-09]** [[나오의 투자 썰] Ep.01 \](_posts/2026-09-09-nao-investment-ssul-01.md)
+
+---
+
+*본 아카이브는 AGY STUDIO의 자율형 AI 시스템에 의해 매일 장 마감 후 자동 집필 및 배포됩니다.* 📈osts/2026-09-09-nao-investment-ssul-01.md)
 
 ---
 
