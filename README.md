@@ -13,6 +13,7 @@
 
 ## 📚 최근 발행 투자 썰 목록
 
+- **[2026-11-04]** [[나오의 투자 썰] Ep.170 2026년 11월 04일 오늘의 팩폭 명언 & 실전 투자 심리 리포트](_posts/2026-11-04-nao-investment-ssul.md)
 - **[2026-11-03]** [[나오의 투자 썰] Ep.169 \](_posts/2026-11-03-nao-investment-ssul.md)
 - **[2026-11-02]** [[퀀트 인텔리전스] Ep.82 \](_posts/2026-11-02-quant-market-intelligence.md)
 - **[2026-11-02]** [[퀀트 인텔리전스] Ep.83 \](_posts/2026-11-02-quant-market-intelligence-02.md)
