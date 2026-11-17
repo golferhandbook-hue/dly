@@ -24,6 +24,7 @@
 - **[2026-11-17]** [[퀀트 인텔리전스] Ep.140 \](_posts/2026-11-17-quant-market-intelligence-03.md)
 - **[2026-11-17]** [[퀀트 인텔리전스] Ep.139 \](_posts/2026-11-17-quant-market-intelligence-02.md)
 - **[2026-11-17]** [[나오의 투자 썰] Ep.230 \](_posts/2026-11-17-nao-investment-ssul.md)
+- **[2026-11-17]** [[나오의 투자 썰] Ep.237 \](_posts/2026-11-17-nao-investment-ssul-08.md)
 - **[2026-11-17]** [[나오의 투자 썰] Ep.236 \](_posts/2026-11-17-nao-investment-ssul-07.md)
 - **[2026-11-17]** [[나오의 투자 썰] Ep.235 \](_posts/2026-11-17-nao-investment-ssul-06.md)
 - **[2026-11-17]** [[나오의 투자 썰] Ep.234 \](_posts/2026-11-17-nao-investment-ssul-05.md)
