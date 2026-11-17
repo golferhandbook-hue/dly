@@ -14,6 +14,7 @@
 ## 📚 최근 발행 투자 썰 목록
 
 - **[2026-11-17]** [[퀀트 인텔리전스] Ep.138 \](_posts/2026-11-17-quant-market-intelligence.md)
+- **[2026-11-17]** [[퀀트 인텔리전스] Ep.146 \](_posts/2026-11-17-quant-market-intelligence-09.md)
 - **[2026-11-17]** [[퀀트 인텔리전스] Ep.145 \](_posts/2026-11-17-quant-market-intelligence-08.md)
 - **[2026-11-17]** [[퀀트 인텔리전스] Ep.144 \](_posts/2026-11-17-quant-market-intelligence-07.md)
 - **[2026-11-17]** [[퀀트 인텔리전스] Ep.143 \](_posts/2026-11-17-quant-market-intelligence-06.md)
