@@ -13,6 +13,7 @@
 
 ## 📚 최근 발행 투자 썰 목록
 
+- **[2026-11-20]** [[퀀트 인텔리전스] Ep.154 \](_posts/2026-11-20-quant-market-intelligence.md)
 - **[2026-11-20]** [[나오의 투자 썰] Ep.247 \](_posts/2026-11-20-nao-investment-ssul.md)
 - **[2026-11-20]** [[나오의 투자 썰] Ep.249 \](_posts/2026-11-20-nao-investment-ssul-03.md)
 - **[2026-11-20]** [[나오의 투자 썰] Ep.248 \](_posts/2026-11-20-nao-investment-ssul-02.md)
