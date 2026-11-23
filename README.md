@@ -14,6 +14,7 @@
 ## 📚 최근 발행 투자 썰 목록
 
 - **[2026-11-23]** [[나오의 투자 썰] Ep.274 \](_posts/2026-11-23-nao-investment-ssul.md)
+- **[2026-11-23]** [[나오의 투자 썰] Ep.279 \](_posts/2026-11-23-nao-investment-ssul-06.md)
 - **[2026-11-23]** [[나오의 투자 썰] Ep.278 \](_posts/2026-11-23-nao-investment-ssul-05.md)
 - **[2026-11-23]** [[나오의 투자 썰] Ep.277 \](_posts/2026-11-23-nao-investment-ssul-04.md)
 - **[2026-11-23]** [[나오의 투자 썰] Ep.276 \](_posts/2026-11-23-nao-investment-ssul-03.md)
